@@ -428,32 +428,6 @@ Any deployed healthcare ML model should track:
 
 ---
 
-## 11. Project File Structure
-
-```
-Healthcare_Analysis/
-│
-├── Healthcare_Analysis.ipynb       ← Main analysis notebook (this project)
-├── healthcare_dataset.csv          ← Source dataset (55,500 records)
-├── README.md                       ← This report
-│
-├── EDA Outputs/
-│   ├── univariate_analysis.png     ← Age, Billing, Stay, Gender, Condition, Admission distributions
-│   ├── bivariate_analysis.png      ← Cross-variable relationship plots
-│   ├── financial_analysis.png      ← Billing by provider, type, and stay
-│   ├── time_analysis.png           ← Monthly admissions and yearly billing trends
-│   ├── hospital_volume.png         ← Top 10 hospitals by patient count
-│   ├── hospital_billing.png        ← Top 15 hospitals by average billing
-│   ├── age_condition.png           ← Medical conditions stratified by age group
-│   └── correlation_heatmap.png     ← Numerical feature correlation matrix
-│
-└── Model Outputs/
-    ├── stay_classification_results.png     ← Model 1: accuracy bar, confusion matrix, feature importance
-    ├── stay_classification_cv_comparison.png  ← Model 1: test vs CV accuracy comparison
-    ├── test_classification_results.png     ← Model 2: accuracy bar, confusion matrix, feature importance
-    └── test_classification_cv_comparison.png  ← Model 2: test vs CV accuracy comparison
-```
-
 ---
 
 ## Technical Environment

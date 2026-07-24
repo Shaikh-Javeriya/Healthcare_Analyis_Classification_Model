@@ -428,7 +428,6 @@ Any deployed healthcare ML model should track:
 
 ---
 
----
 
 ## Technical Environment
 
